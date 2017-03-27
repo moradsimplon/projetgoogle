@@ -1,0 +1,11 @@
+header {
+  float: right;
+  font : 13px arial black;
+  text-decoration: none;
+}
+img{
+  margin-top: 300px;
+  padding-left: 500px;
+  height: 100px;
+  width: 300px;
+}
