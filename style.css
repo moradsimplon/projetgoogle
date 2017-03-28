@@ -1,12 +1,31 @@
 header {
   margin-top: -30px;
   float: right;
-  font : 13px arial black;
+  font : 13px arial;
   text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
 }
-
+.icon{
+  height: 30px;
+  width: 30px;
+display: inline-block;
+vertical-align: middle;
+}
+.connexion {
+  vertical-align: middle;
+    background: rgba(0, 0, 0, 0)
+    -moz-linear-gradient(center top , #4387fd, #4683ea) repeat scroll 0 0;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: medium none;
+    color: #fff;
+    display: inline-block;;
+    height: 35px;
+    width: 100px;
+}
 .png{
-  margin-top: 300px;
+  margin-top: 250px;
   padding-left: 500px;
   height: 100px;
   width: 300px;
@@ -23,7 +42,7 @@ div  {
 p{
   color: #666;
   display: inline;
-  margin: 0px 15px 0px 0px;
+  margin: 0px 20px 0px 0px;
 }
 form  {
   padding-left: 350px;
@@ -47,11 +66,15 @@ button {
     margin: 40px 5px 50px 0px;
   }
   footer {
-    padding-top: 30px;
-    height: 40px;
-    background-color: grey;
+    padding-top: 20px;
+    height: 15px;
+    width: 1275px;
+    background-color: #f2f2f2;
     font-size: small;
-    color : #777;
+    color : #666;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-family: arial;
 
   }
   #button {
